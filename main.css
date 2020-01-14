@@ -65,7 +65,7 @@ body {
 .description {
   left: 50%;
   position: absolute;
-  top: 60%;
+  top: 55%;
   transform: translate(-50%, -55%);
   text-align: center;
 }
@@ -236,6 +236,10 @@ section.form {
 }
 
 @media (max-width: 575.98px) {
+  .navbar-brand img {
+    max-height: 45px;
+  }
+
   .description {
     left: 0;
     padding: 0 15px;
