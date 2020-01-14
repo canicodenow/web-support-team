@@ -4,6 +4,10 @@ body {
   background: #f6f9f1;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*--- navigation bar ---*/
 .navbar {
   background: rgb(223, 223, 223);
