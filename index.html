@@ -216,7 +216,7 @@
     <section class="form py-5">
         <div class="container">
             <h2 class="text-center heading-center">Get in touch!</h2>
-            <form action="https://getform.io/f/bc2baeca-49c9-4759-874e-136e555ddd6b" method="POST">
+            <form id="form" action="https://getform.io/f/bc2baeca-49c9-4759-874e-136e555ddd6b" method="POST">
                 <div class="form-group">
                     <input type="text" class="form-control" placeholder="* Name" name="fullname" required>
                 </div>
@@ -229,6 +229,9 @@
                 <input type="submit" class="btn btn-secondary btn-block" value="Send message" name="">
         </div>
         </form>
+        <script type="text/javascript">
+            document.getElementById("form").reset();
+        </script>
 
 
     </section>
