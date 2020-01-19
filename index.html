@@ -40,7 +40,7 @@
             <h1>East Sussex Web Support Service</h1>
             <p>We can help you get the most out of your school's website. Our services include an audit, a content
                 repair and and full management of your web content. Get in touch to see how we can help.</p>
-            <button type="button" class="btn btn-primary btn-lg">See what we're about</button>
+            <a href="#team"><button type="button" class="btn btn-primary btn-lg">See what we're about</button></a>
         </div>
     </header>
     <a id="team"></a>
@@ -215,18 +215,19 @@
     <section class="form py-5">
         <div class="container">
             <h2 class="text-center heading-center">Get in touch!</h2>
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Name" name="">
-            </div>
-            <div class="form-group">
-                <input type="email" class="form-control" placeholder="Email Address" name="email">
-            </div>
-            <div class="form-group">
-                <textarea class="form-control" rows="4"></textarea>
-            </div>
-            <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+            <form action="https://getform.io/f/bc2baeca-49c9-4759-874e-136e555ddd6b" method="POST">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name" name="fullname">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email" name="email">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Message" name="message" rows="4"></textarea>
+                </div>
+                <input type="submit" class="btn btn-secondary btn-block" value="Send message" name="">
         </div>
-
+        </form>
 
 
     </section>
@@ -238,16 +239,16 @@
                     <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
                     <p>Our service operates in East Sussex County Council. We sell our service exclusively through
                         ESCC's Services 2 Schools.</p>
-                    <p>Our team is made up of experiences Children's Services web authors and editors, so we have the
+                    <p>Our team is made up of experienced Children's Services web authors and editors, so we have the
                         right contacts to help improve your site.</p>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12">
                     <h6 class="text-uppercase font-weight-bold">Find us</h6>
                     <p>County Hall, St Anne's Crescent, Lewes, BN7 1UE
-                        <br /><br />websupport@eastsussex.gov.uk</p>
+                        <br /><br /><a href="mailto:websupport@eastsussex.gov.uk">websupport@eastsussex.gov.uk</a></p>
                 </div>
             </div>
-            <div class="footer-copyright text-center">© 2020 Copyright: ESCC Web Content Service</div>
+            <div class="footer-copyright text-center">© 2020 Copyright: ESCC Web Support Service</div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
