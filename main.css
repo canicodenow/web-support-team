@@ -250,6 +250,10 @@ section.form {
   border: 1px solid #00ae31;
 }
 
+.form label {
+  font-weight: 300;
+}
+
 /*--- general ---*/
 
 .heading-center {
