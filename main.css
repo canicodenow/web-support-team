@@ -295,8 +295,8 @@ section.form {
 }
 
 @media screen and (max-device-width: 1024px) {
-  header {
-    background-attachment: initial;
+  .header {
+    background-attachment: scroll;
   }
 }
 
