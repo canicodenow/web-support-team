@@ -294,6 +294,12 @@ section.form {
   padding: 40px 0;
 }
 
+@media screen and (max-device-width: 1024px) {
+  header {
+    background-position: scroll;
+  }
+}
+
 @media (max-width: 575.98px) {
   :target {
     display: block;
