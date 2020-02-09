@@ -330,4 +330,7 @@ section.form {
   .features {
     margin: 0;
   }
+  /* .page-footer, .footer-copyright {
+    padding: 0;
+  } */
 }
