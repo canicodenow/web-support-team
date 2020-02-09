@@ -1,5 +1,5 @@
 body {
-  padding: 75px 0 0 0;
+  padding: 60px 0 0 0;
   margin: 0;
   background: #f6f9f1;
 }
@@ -292,7 +292,7 @@ section.form {
 .page-footer {
   background-color: #222;
   color: #ccc;
-  padding: 60px 0 30px;
+  padding: 40px 0 15px;
 }
 
 .footer-copyright {
@@ -330,27 +330,4 @@ section.form {
   .features {
     margin: 0;
   }
-}
-
-/*--- iframe ---*/
-
-.iframe-container {
-  overflow: hidden;
-  padding-top: 56.25%;
-  position: relative;
-}
-
-.iframe-container iframe {
-  border: 0;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-/* 4x3 Aspect Ratio */
-
-.iframe-container-4x3 {
-  padding-top: 75%;
 }
