@@ -280,6 +280,10 @@ section.form {
   padding-bottom: 2rem;
 }
 
+a {
+color: #0065D1;
+}
+
 :target {
   display: block;
   position: relative;
