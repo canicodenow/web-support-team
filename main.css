@@ -247,6 +247,10 @@ section.team {
   padding-bottom: 0.5rem;
 }
 
+a {
+color: #005EC2;
+}
+
 /* --- form --- */
 
 section.form {
