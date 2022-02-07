@@ -282,6 +282,7 @@ section.form {
 
 a {
 color: #005EC2;
+text-decoration: underline;
 }
 
 :target {
